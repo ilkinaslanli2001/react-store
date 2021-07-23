@@ -1,0 +1,37 @@
+.wrapper {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index:10;*/
+
+    transition: 0.3s ease all;
+
+    will-change: transform;
+    transform: translateZ(0);
+    width: auto;
+
+
+    height: 50px;
+
+    box-shadow: 0 -2px 5px -2px #333;
+    background-color: #fff;
+}
+
+.wrapper svg {
+    width: 18px;
+    height: 18px;
+}
+
+@media screen and (max-width: 770px) {
+    .wrapper {
+        box-sizing: border-box;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+}

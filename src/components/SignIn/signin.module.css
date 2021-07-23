@@ -1,0 +1,109 @@
+.signinWrapper {
+    width: 330px;
+    height: 390px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.link:nth-child(4) {
+    margin-top: 30px;
+}
+
+.link {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.signinWrapper .logo {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signinWrapper .logo svg {
+    width: 90px;
+
+}
+
+.password_container svg {
+    width: 12px;
+    height: 12px;
+}
+
+.password_container p {
+
+    cursor: pointer;
+
+}
+
+.password_container input {
+    outline: none;
+    border: none;
+    width: 100%;
+
+}
+
+.signinWrapper .title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgba(33, 33, 33, 0.5);
+}
+
+.password_container {
+    border-radius: 8px;
+
+    padding: 8px 8px;
+    background-color: white;
+    border: 1px solid rgba(33, 33, 33, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.input_block span {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    color: rgba(33, 33, 33);
+}
+
+.email_input {
+    outline: none;
+
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 8px;
+    background-color: white;
+    border: 1px solid rgba(33, 33, 33, 0.3);
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #121212;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+}

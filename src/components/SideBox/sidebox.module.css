@@ -1,0 +1,78 @@
+.sidebox_wrapper {
+
+    padding-left: 3rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin-right: 25px;
+    width: 325px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_filter {
+
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.user_filter li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    background-color: rgba(33, 33, 33, 0.1);
+    padding: 8px;
+    border-radius: 6px;
+    min-height: 15px;
+    height: fit-content;
+    margin-right: 12px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.user_filter li p {
+    width: 7px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.title h4 {
+    font-weight: 500;
+    font-size: 21px;
+    color: rgb(33, 33, 33);
+}
+
+.title span {
+    font-size: 13px;
+    color: rgba(33, 33, 33, 0.6);
+    cursor: pointer;
+}
+
+.filter h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(33, 33, 33);
+}
+
+@media screen and (max-width: 1182px) {
+    .sidebox_wrapper {
+        display: none;
+    }
+}

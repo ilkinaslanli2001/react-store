@@ -1,0 +1,74 @@
+.wrapper {
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    z-index: 20;
+    top: 0;
+    transition: 0.4s ease all;
+
+}
+
+
+.body {
+    padding: 20px;
+}
+
+.body > div {
+    display: block;
+    padding-left: 0;
+    margin-right: 0;
+    width: auto;
+
+}
+
+.body h4 {
+    font-size: 18px;
+}
+
+.top {
+
+    position: relative;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.top h1 {
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.top p {
+    position: absolute;
+    top: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.top svg {
+    width: 15px;
+    height: 15px;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        left: -800px;
+
+    }
+    100% {
+        left: 0;
+
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .wrapper {
+        width: 100%;
+    }
+}

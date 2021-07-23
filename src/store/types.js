@@ -1,0 +1,18 @@
+export const LOADING_TRUE = 'LOADING_TRUE'
+export const LOADING_FALSE = 'LOADING_FALSE'
+export const SIGNIN_VISIBLE = 'SIGNIN_VISIBLE'
+export const SIGNIN_HIDE = 'SIGNIN_HIDE'
+export const ORDER_VISIBLE = 'ORDER_VISIBLE'
+export const ORDER_HIDE = 'ORDER_HIDE'
+
+export const BASKET_HIDE = 'BASKET_HIDE'
+export const BASKET_VISIBLE = 'BASKET_VISIBLE'
+
+export const ADD_ORDER = "ADD_ORDER"
+export const REMOVE_ORDER = "REMOVE_ORDER"
+export const CHANGE_ORDER = "CHANGE_ORDER"
+export const SET_TOTAL = "SET_TOTAL"
+
+export const ADD_FILTER = "ADD_FILTER"
+export const REMOVE_FILTER = "REMOVE_FILTER"
+export const CLEAR_FILTERS = "CLEAR_FILTERS"

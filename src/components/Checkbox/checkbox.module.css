@@ -1,0 +1,37 @@
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.checkbox:hover .tick_wrapper {
+    border: 1px solid rgba(33, 33, 33, 1);
+}
+
+.checkbox p {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.tick_wrapper {
+    width: 15px;
+    height: 15px;
+    transition: 0.2s ease all;
+    border-radius: 8px;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2563eb;
+}
+
+.active svg {
+    width: 9px;
+    height: 9px;
+    fill: white;
+}

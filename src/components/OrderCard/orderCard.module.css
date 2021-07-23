@@ -1,0 +1,153 @@
+.order_card_wrapper {
+
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    border-radius: 6px;
+    background-color: white;
+    padding-bottom: 10px;
+
+
+}
+
+.order_card_wrapper:hover {
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0ch, 0.1in, 0);
+}
+
+.order_card_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.order_card_wrapper h1 {
+    margin-top: 10px;
+    font-size: 16px;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.order_card_wrapper p {
+    margin-top: 5px;
+    font-size: 14px;
+    height: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prices {
+    margin-top: 20px;
+
+}
+
+.info {
+    padding: 0 10px;
+}
+
+.current_price {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.img_bcg {
+    width: 100%;
+    background-color: rgb(223, 230, 233);
+    height: 386px;
+    border-radius: 6px;
+}
+
+.discount_price {
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    color: rgb(33, 33, 33);
+}
+
+.discount_price:after {
+    content: "";
+    position: absolute;
+    border-top: 1px solid rgb(33, 33, 33);
+    width: 100%;
+    display: block;
+    right: -3px;
+    transform-origin: 0% 0%;
+    top: 8px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .img_bcg {
+        height: 358px;
+    }
+
+}
+
+@media only screen and (max-width: 1228px) {
+
+    .img_bcg {
+        height: 355px;
+    }
+
+}
+
+@media only screen and (max-width: 941px) {
+
+    .img_bcg {
+        height: 376px;
+    }
+
+}
+
+@media only screen and (max-width: 752px) {
+
+    .img_bcg {
+        height: 237px;
+    }
+
+}
+
+@media only screen and (max-width: 732px) {
+
+    .img_bcg {
+        height: 282px;
+    }
+
+}
+
+@media only screen and (max-width: 588px) {
+
+    .img_bcg {
+        height: 320px;
+    }
+
+}
+
+@media only screen and (max-width: 482px) {
+
+    .img_bcg {
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 352px) {
+
+    .img_bcg {
+        height: 223px;
+    }
+
+}
+
+@media only screen and (max-width: 346px) {
+
+    .img_bcg {
+        height: 379px;
+    }
+
+}

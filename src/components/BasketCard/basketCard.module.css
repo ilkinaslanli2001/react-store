@@ -1,0 +1,122 @@
+.item {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_back {
+    background-color: rgb(178, 190, 195);
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.img_back:hover .rmv_wrapper {
+    opacity: 1;
+}
+
+.rmv_wrapper {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(33, 33, 33, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.2s ease all;
+}
+
+.rmv_wrapper p {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rmv_wrapper svg {
+    width: 8px;
+}
+
+.item img {
+    width: 90px;
+    height: 90px;
+    object-fit: fill;
+    border-radius: inherit;
+}
+
+.count svg {
+    width: 10px;
+    height: 10px;
+}
+
+.itemInfo {
+    margin-left: 10px;
+    height: 90px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.itemInfo h1 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price_info {
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(33, 33, 33, 0.6);
+}
+
+.bottom {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.count {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #121212;
+    color: white;
+    fill: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.count span {
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.count p {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .price {
+    font-size: 14px;
+    font-weight: 500;
+}
