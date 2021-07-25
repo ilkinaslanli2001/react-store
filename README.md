@@ -5,6 +5,7 @@
   * Basket
   * Responsive Design
   * Filtering by categories
+  * ContactUs
 
 ### Usage
 
