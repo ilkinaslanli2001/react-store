@@ -10,7 +10,7 @@ function Basket(props) {
 
     const {basket, total} = useSelector((state) => state.basketReducer)
     return (
-        <div className={classes.basket_wrapper}>
+        <div onClick={(event)=>{event.stopPropagation()}} className={classes.basket_wrapper}>
             <div className={classes.top}>
                 <h1>Shopping Cart</h1>
                 <CloseButton/>

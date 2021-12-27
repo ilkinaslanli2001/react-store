@@ -7,7 +7,7 @@ export default function OrderCard({order}) {
         <div className={classes.order_card_wrapper}>
 
             <div className={classes.img_bcg}>
-                <img alt={order.title} src={order.image}/>
+                <img lazy={"loading"} alt={order.title} src={order.image}/>
             </div>
             <div className={classes.info}>
                 <h1>{order.title}</h1>

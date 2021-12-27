@@ -1,8 +1,6 @@
 import {
     LOADING_FALSE,
     LOADING_TRUE,
-    SIGNIN_HIDE,
-    SIGNIN_VISIBLE,
     ORDER_HIDE,
     ORDER_VISIBLE,
     BASKET_HIDE,
@@ -53,18 +51,7 @@ export const simpleReducer = (state = initialState, action) => {
                 ...state,
                 loading: false
             }
-        case SIGNIN_VISIBLE:
 
-            return {
-                ...state,
-                signin_visible: true
-            }
-        case SIGNIN_HIDE:
-
-            return {
-                ...state,
-                signin_visible: false
-            }
         case ORDER_HIDE:
 
             return {

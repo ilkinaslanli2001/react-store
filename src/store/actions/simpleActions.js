@@ -1,8 +1,6 @@
 import {
     LOADING_FALSE,
     LOADING_TRUE,
-    SIGNIN_HIDE,
-    SIGNIN_VISIBLE,
     ORDER_VISIBLE,
     ORDER_HIDE,
     BASKET_VISIBLE, BASKET_HIDE,
@@ -27,14 +25,21 @@ export const setBasket = (basketState) => async dispatch => {
     dispatch({
         type: basketState ? BASKET_VISIBLE : BASKET_HIDE,
     })
+
 }
 
-export const setSignIn = (signInState) => async dispatch => {
-    console.log(signInState)
+
+
+export const closeAllPopUp = () => async dispatch =>{
     dispatch({
-        type: signInState ? SIGNIN_VISIBLE : SIGNIN_HIDE,
+        type: BASKET_HIDE,
+
+    })
+    dispatch({
+        type:ORDER_HIDE
     })
 }
+
 export const addFilter = (filter) => async dispatch => {
     dispatch({
         type: ADD_FILTER,

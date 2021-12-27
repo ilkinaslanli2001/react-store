@@ -45,9 +45,9 @@ function OrderDetail({selectedOrder}) {
         } else setButtonActive(false)
     }, [userCount, userColor, userColor])
     return (
-        <div className={classes.wrapper}>
+        <div onClick={(event)=>{event.stopPropagation()}} className={classes.wrapper}>
             <CloseButton/>
-            <img alt={selectedOrder.title} src={selectedOrder.image}/>
+            <img lazy={"loading"} alt={selectedOrder.title} src={selectedOrder.image}/>
             <div className={classes.details}>
                 <h1>{selectedOrder.title}</h1>
                 <p className={classes.description}>{selectedOrder.description}</p>
